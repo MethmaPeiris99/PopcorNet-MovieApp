@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PopCorNet</string>
+    <string name="registerMovie_buttonText_main">Register Movie</string>
+    <string name="displayMovies_buttonText_main">Display Movies</string>
+    <string name="favourites_buttonText_main">Favourites</string>
+    <string name="editMovies_buttonText_main">Edit Movies</string>
+    <string name="search_buttonText_main">Search</string>
+    <string name="ratings_buttonText_main">Ratings</string>
+    <string name="title_hint_registerMovie">Enter Movie Title</string>
+    <string name="year_hint_registerMovie">Enter Movie Year</string>
+    <string name="director_hint_registerMovie">Enter Movie Director</string>
+    <string name="actorList_hint_registerMovie">Enter Movie Actors/Actresses</string>
+    <string name="rating_hint_registerMovie">Enter Movie Rating</string>
+    <string name="review_hint_registerMovie">Enter Movie Review</string>
+    <string name="save_buttonText">Save</string>
+</resources>

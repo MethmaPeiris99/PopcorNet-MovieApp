@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coursework2_w1761353">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Coursework2_w1761353">
+
+        <activity
+            android:name=".RatingsActivity"
+            android:label="@string/ratings_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/search_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".EditMoviesActivity"
+            android:label="@string/editMovies_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".FavouritesActivity"
+            android:label="@string/favourites_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".DisplayMoviesActivity"
+            android:label="@string/displayMovies_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".RegisterMovieActivity"
+            android:label="@string/registerMovie_buttonText_main"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.coursework2_w1761353.MainActivity"/>
+        </activity>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
